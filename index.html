@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rohit.in</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font icon link -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!--  -->
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#icon").click(function () {
+          $("ul").toggleClass("show");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    .
+    <!-- nav bar -->
+
+    <div class="slider" id="home">
+      <nav>
+        <div class="navbar">
+          <div id="logo">
+            <img src="images/rohit-logo-removebg-preview.png" alt="" />
+          </div>
+
+          <div class="menu-list">
+            <ul>
+              <li><a href="./index.html">HOME</a></li>
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#cont">CONTACT</a></li>
+              <li><a href="#skills">SKILLS</a></li>
+              <li><a href="#">PROJECTS</a></li>
+            </ul>
+          </div>
+
+          <label id="icon">
+            <i id="icn" class="fa-sharp fa-solid fa-bars"></i>
+          </label>
+        </div>
+      </nav>
+    </div>
+
+    <div class="main-section">
+      <h1><span>Rohit kumar Ranjan</span></h1>
+
+      <h2>Frontend Web Developer</h2>
+      <p>
+        "Self-taught React Developer with expertise in HTML, CSS, Boostrap, and
+        JavaScript, <br />
+        skilled in creating modern and dynamic web <br />
+        Proficient in building intuitive user interfaces and web apps."
+      </p>
+
+      <div class="social-media">
+        <div class="media" id="facebook">
+          <a href="https://www.facebook.com/roy.rohit.96742">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+        </div>
+
+        <div class="media" id="insta">
+          <a href="https://www.instagram.com/rohit_kr_ranjan/">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+
+        <div class="media" id="linkedin">
+          <a href="https://www.linkedin.com/in/rohit-kumar-ranjan-793393229/">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+
+        <div class="media" id="github">
+          <a href="https://github.com/Rohitkrranjan">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+
+    <div class="about-section" id="about">
+      <h1>About <span>Me</span></h1>
+
+      <div class="border"></div>
+
+      <div class="content-section">
+        <p>
+          "Hi there! my name is Rohit Kumar Ranjan Currently I am doing B.tech
+          in ECE stream <br />
+          from I.K Gujral Punjab Technical University Jalandhar. Passout Year
+          2024, <br />with a strong passion for web development and a focus on
+          React. <br />I have self-taught myself HTML, CSS, Tailwind, ReactJS,
+          and JavaScript, <br />i have also a good knowledge in C language and
+          C++ language ,
+          <br />
+          I am always eager to learn and explore new ways to create stunning web
+          experiences".
+        </p>
+
+        <img
+          id="imge"
+          src="images/WhatsApp Image 2023-07-14 at 23.28.11.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <!-- skills section -->
+
+    <div class="skills-section" id="skills">
+      <h1>Skills</h1>
+      <div class="border"></div>
+      <!-- <p>These are the technologies I've worked with </p> -->
+
+      <div class="images">
+        <div class="photo" id="html">
+          <img src="images/html.png" alt="" />
+          <p>HTML</p>
+        </div>
+        <div class="photo" id="css">
+          <img src="images/css.png" alt="" />
+          <p>CSS3</p>
+        </div>
+        <div class="photo" id="js">
+          <img src="images/javascript.png" alt="" />
+          <p>JavaScript</p>
+        </div>
+      </div>
+
+      <div class="images">
+        <div class="photo" id="Clang">
+          <img src="images/c lang.png" alt="" />
+          <p>C Language</p>
+        </div>
+        <div class="photo" id="Cpp">
+          <img src="images/c++.png" alt="" />
+          <p>C++ Language</p>
+        </div>
+        <div class="photo" id="boot">
+          <img src="images/bootstrap.jpg" alt="" />
+          <p>Boostrap</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact section -->
+
+    <div class="contact" id="cont">
+      <div class="without-text">
+        <h3>Phone Number : <span>+91 6205041054</span></h3>
+
+        <h3>Email : <span>rohit41054@gmail.com</span></h3>
+
+        <h3></h3>
+      </div>
+
+      <!-- <h2 id="or">OR</h2> -->
+
+      <!-- <form action="">
+        <input type="text" placeholder=" Your Name">
+        <input type="email" name="" id="" placeholder="Your Email">
+        <input type="number" placeholder="Your Number">
+        <textarea name="" id="" cols="" rows="">Your message</textarea>
+      </form> -->
+    </div>
+
+    <!-- Project Section -->
+
+    <!-- <div class="project">
+      <div id="project1">
+        <img src="images/number.jpg" alt="" />
+        <h2>Number Guessing Game</h2>
+        <p>
+          Basically this is a kind of game in this game user guess the number
+          between 1 to 100 if user guessing number and computer guess number is
+          same then it is correct otherwise wrong
+        </p>
+      </div>
+
+      <div id="project2">
+        <img src="images/quiz.png" alt="">
+        <h2>Quiz App</h2>
+        <p>This is a </p>
+      </div>
+    </div> -->
+
+
+
+
+    <!-- whatsapp -->
+
+    <div class="WhatApp">
+      <button class="WhatApp-btn" onclick="WhatAppFN()"><i class="fa-brands fa-rocketchat fa-shake"></i></button>
+  </div>
+
+    <!-- javascript link -->
+    <script src="script.js"></script>
+  </body>
+</html>
